@@ -6,11 +6,11 @@ function Login() {
   const [email, setemail] = useState("");
   return (
     <div className="flex flex-col bg-slate-200 m-3">
-      Login page
+      <h1 className="bg-blue-200 font-bold text-green-600">Login Page (JWT Auth)</h1>
       <div className="flex gap-3">
-        <label>user</label>
+        <label>User ID</label>
         <input type="text" className="bg-slate-400 px-3 rounded-lg"></input>
-        <label>password</label>
+        <label>Password</label>
         <input className="bg-slate-400 px-3 rounded-lg" type="text"></input>
       </div>
     </div>

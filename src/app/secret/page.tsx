@@ -1,7 +1,7 @@
 import React from "react";
 
-function Secret() {
+function Admin() {
   return <div>Secret</div>;
 }
 
-export default Secret;
+export default Admin;
